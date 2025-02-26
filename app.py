@@ -7,11 +7,11 @@ st.set_page_config(page_title="Growth Mindset Challenge App", page_icon="✨✨"
 st.title("Growth Mindset Challenge: Web App with Streamlit by Mahar Ahmad Sarfraz")
 
 st.header ("🤷‍♂️ Welcome to your growth Journey")
-st.write ("Embrace challenges, learn from mistakes and unlock your full potential this AI powered app helps you to build a growth mindset with reflection, challenges, and achievements ✨")
+st.write ("Embrace challenges, learn from mistakes and unlock your full potential this AI-powered app helps you to build a growth mindset with reflection, challenges, and achievements ✨")
 
 # Quotes Section...abs
 
-st.header ("Today's Growth Mindset Quete 👀")
+st.header ("Today's Growth Mindset Quote 👀")
 st.write ("Success is not final 🙌, failure is not fatal: It is the courage to continue that counts.-Winston Churchill")
 
 st.header ("What's your challenge today ?")
@@ -32,12 +32,12 @@ reflection = st.text_area ("Write your reflection here ")
 if reflection: 
     st.success (f"Great Insight! your reflection: {reflection}")
 else:
-    st.info ("Reflecting on your past experience helps you to grow! share your difficulties")
+    st.info ("Reflecting on your past experience helps you to grow! Share your difficulties")
 
 # Achievements... 
 
 st.header ("🏆 Celebrate your victory")
-achievement = st.text_input ("Share something you have recent accomplished!")
+achievement = st.text_input ("Share something you have recently accomplished!")
 
 if achievement: 
     st.success (f"Amazing you have achieved: {achievement}")
