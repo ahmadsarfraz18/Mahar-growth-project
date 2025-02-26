@@ -26,7 +26,7 @@ else:
 
 # Reflection... 
 
-st.reflection ("Reflect on your learning")
+reflection = st.text_area("Reflect on your learning")
 reflection = st.text_area ("Write your reflection here ")
 
 if reflection: 
