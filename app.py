@@ -4,7 +4,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="Growth Mindset Challenge App", page_icon="✨✨")
-st.title("Growth Mindset Challenge: Web App with Streamlit")
+st.title("Growth Mindset Challenge: Web App with Streamlit by Mahar Ahmad Sarfraz")
 
 st.header ("🤷‍♂️ Welcome to your growth Journey")
 st.write ("Embrace challenges, learn from mistakes and unlock your full potential this AI powered app helps you to build a growth mindset with reflection, challenges, and achievements ✨")
