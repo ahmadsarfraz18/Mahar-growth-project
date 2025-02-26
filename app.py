@@ -48,5 +48,5 @@ else:
 # Footer... 
 
 st.write ("- - -")
-st.write ("🎡 Keep beleiving in yourself! Growth is a journey, not the destination 👔")
+st.write ("🎡 Keep believing in yourself! Growth is a journey, not the destination 👔")
 st.write ("**Created with ❤❤❤ by Mahar Ahmad Sarfraz**")
